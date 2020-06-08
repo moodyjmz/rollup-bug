@@ -1,6 +1,6 @@
 # \<rollup-bug>
 
-Demo to show bug in repo. So far, only reproducible on mac (10.14.16).
+Demo to show bug in repo. So far, only reproducible on mac (10.14.16, node 13.6.0).
 
 This is just for convenience and is simply the default open-wc init.
 
@@ -39,4 +39,6 @@ npm i
 ```bash
 npm start
 ```
-To run a local development server that serves the basic demo located in `demo/index.html`
+To run a local development server that serves the basic demo located in `demo/index.html`.
+
+This will run on Windows and fail on Mac.
